@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "ic2:raw_uranium_block"
+  ],
+  "result": {
+    "id": "ic2:raw_uranium",
+    "count": 9
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:copy_custom_data",
+              "ops": [
+                {
+                  "op": "replace",
+                  "source": "calcification",
+                  "target": "calcification"
+                }
+              ],
+              "source": {
+                "type": "ic2:block_nbt"
+              }
+            }
+          ],
+          "name": "ic2:steam_generator"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

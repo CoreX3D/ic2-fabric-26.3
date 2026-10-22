@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "ic2:item/rotor/rotor_wood_model"
+  }
+}

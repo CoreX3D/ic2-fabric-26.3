@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "ic2:item/hot_coolant_cell"
+  }
+}

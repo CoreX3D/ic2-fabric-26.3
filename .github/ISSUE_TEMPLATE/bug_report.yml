@@ -1,0 +1,36 @@
+name: Ошибка в моде
+description: Сообщить о сбое или неправильной работе IC2 для Fabric 26.3
+title: "[Ошибка] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Версия IC2
+      placeholder: 0.1.0-alpha.12
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Minecraft, Fabric Loader и Fabric API
+      placeholder: Minecraft 26.3, Loader 0.19.5, API 0.164.0+26.3
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Как воспроизвести
+      description: Опишите действия, ожидаемый результат и то, что произошло.
+    validations:
+      required: true
+  - type: textarea
+    id: other_mods
+    attributes:
+      label: Другие моды и среда
+      description: Укажите список модов и происходит ли ошибка в одиночной игре или на сервере.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Лог, отчёт о сбое или снимки экрана
+      description: При необходимости приложите latest.log или crash-report. Перед отправкой удалите токены, адреса серверов и личные данные.
+

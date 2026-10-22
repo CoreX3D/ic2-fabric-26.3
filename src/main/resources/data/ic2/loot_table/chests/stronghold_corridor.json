@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "name": "ic2",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 9,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:tin_ingot",
+          "weight": 8,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:iridium_ore",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:iridium_shard",
+          "weight": 8,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:bronze_pickaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:bronze_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:bronze_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:bronze_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:bronze_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ic2:bronze_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 44
+        }
+      ]
+    }
+  ]
+}

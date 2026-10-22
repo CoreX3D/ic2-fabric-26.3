@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ic2:ic2_bronze"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ic2:ic2_bronze"
+      }
+    ]
+  }
+}

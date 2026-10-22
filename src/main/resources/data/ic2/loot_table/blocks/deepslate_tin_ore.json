@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:match_tool",
+                "predicate": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "levels": {
+                          "min": 1
+                        },
+                        "enchantments": "minecraft:silk_touch"
+                      }
+                    ]
+                  }
+                }
+              },
+              "name": "ic2:deepslate_tin_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "modifier": [
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops",
+                  "type": "minecraft:apply_bonus"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "ic2:raw_tin"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

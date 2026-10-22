@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ic2:ic2_energy_pack"
+      }
+    ]
+  }
+}

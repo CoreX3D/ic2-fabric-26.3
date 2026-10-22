@@ -1,0 +1,8 @@
+accessWidener v2 official
+
+# NeoForge widened Player#closeContainer() to public; IC2's hand-held inventories and portable
+# tools close the open menu from outside the player class.
+accessible method net/minecraft/world/entity/player/Player closeContainer ()V
+
+# NeoForge widened WoodType#register, which vanilla keeps private behind its internal type map.
+accessible method net/minecraft/world/level/block/state/properties/WoodType register (Lnet/minecraft/world/level/block/state/properties/WoodType;)Lnet/minecraft/world/level/block/state/properties/WoodType;

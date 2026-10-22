@@ -1,0 +1,22 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ic2:ic2_quantum",
+        "dyeable": { "color_when_undyed": -1 }
+      },
+      {
+        "texture": "ic2:ic2_quantum_overlay"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ic2:ic2_quantum",
+        "dyeable": { "color_when_undyed": -1 }
+      },
+      {
+        "texture": "ic2:ic2_quantum_overlay"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source_jar": "industrialcraft-2-2.8.222-ex112.jar",
+  "assets": [
+    {
+      "source_entry": "assets/ic2/textures/items/resource/uu_matter.png",
+      "destination": "assets/ic2/textures/item/resource/uu_matter.png",
+      "sha256": "a6e5456a55ca4c5781145f20c175b8035ec0bc62a40622f8b169b06b29a783d8",
+      "bytes": 554
+    },
+    {
+      "source_entry": "assets/ic2/textures/blocks/machine/misc/item_buffer_2.png",
+      "destination": "assets/ic2/textures/block/machine/misc/item_buffer_2.png",
+      "sha256": "9ab8ecdb2381ce2bda63b374790ffbb173f9902578187dca57d175347d7fe25d",
+      "bytes": 1392
+    }
+  ],
+  "source_jar_sha256": "f96b1886b6d060b308fb811029d5c5cc76deb17b835aa368dcb6071f2de290d4",
+  "note": "Exact original PNG bytes, restored into singular texture directories used by the current model assets."
+}

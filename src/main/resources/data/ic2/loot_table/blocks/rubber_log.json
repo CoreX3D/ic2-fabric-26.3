@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ic2:rubber_log"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ic2:resin"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:survives_explosion"
+          },
+          {
+            "type": "minecraft:inverted",
+            "term": {
+              "type": "minecraft:match_block",
+              "blocks": "ic2:rubber_log",
+              "state": {
+                "state": "plain"
+              }
+            }
+          },
+          {
+            "type": "minecraft:table_bonus",
+            "enchantment": "minecraft:fortune",
+            "chances": [
+              0.1666666666666667,
+              0.18,
+              0.21,
+              0.25
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

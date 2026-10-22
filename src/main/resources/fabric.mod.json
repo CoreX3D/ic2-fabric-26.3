@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "ic2",
+  "version": "${version}",
+  "name": "IndustrialCraft 2 — Fabric 26.3 (alpha)",
+  "description": "IndustrialCraft 2 Experimental mechanics for Minecraft 26.3 on Fabric, using vanilla copper and modern resources. Alpha version.",
+  "authors": [
+    "IC2 Dev Team",
+    "HalfCooler"
+  ],
+  "contact": {
+    "sources": "https://github.com/neo-industrial-mc/IC2R"
+  },
+  "license": "GNU Affero General Public License v3.0",
+  "icon": "IndustrialCraft2_Refactored.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ic2.fabric.Ic2Fabric"
+    ],
+    "client": [
+      "ic2.fabric.Ic2FabricClient"
+    ]
+  },
+  "mixins": [
+    "ic2.mixins.json"
+  ],
+  "accessWidener": "ic2.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": ">=0.163.0",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}

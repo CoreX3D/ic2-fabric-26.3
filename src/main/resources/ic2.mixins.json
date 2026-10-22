@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "package": "ic2.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "mixins": [
+    "AbstractBoatMixin",
+    "ElectricArmorDamageMixin",
+    "FlowingFluidMixin",
+    "FluidSpreadContextMixin",
+    "InventoryMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "PlaceRecipeHelperMixin",
+    "PlayerMixin",
+    "RecipeManagerMixin",
+    "StackedItemContentsMixin"
+  ],
+  "client": [
+    "client.JetpackRenderStateMixin",
+    "client.FluidRendererMixin",
+    "client.FogRendererMixin",
+    "client.SoundEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

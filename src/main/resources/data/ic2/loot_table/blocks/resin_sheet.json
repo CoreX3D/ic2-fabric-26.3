@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ic2:resin",
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:random_chance",
+                "chance": 0.8
+              },
+              {
+                "type": "minecraft:survives_explosion"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

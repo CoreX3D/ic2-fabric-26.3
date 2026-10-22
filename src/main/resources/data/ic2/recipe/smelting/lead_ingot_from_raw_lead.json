@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "ic2:raw_lead",
+  "result": {
+    "id": "ic2:lead_ingot"
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

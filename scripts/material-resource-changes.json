@@ -1,0 +1,2779 @@
+{
+  "baseline": "upstream/ic2r-fabric/src/main/resources/data",
+  "changes": [
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/c/tags/item/gems/diamond.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/ic2/build_generator/build_compressor/build_coal_diamond.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/building_blocks/smelting/jungle_log_from_rubber_log.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.farming/smelting/dark_coffee_mug.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/bronze_ingot_from_bronze_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/coal_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/crystal_memory.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/lead_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/lead_ingot_from_crushed_lead.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/lead_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/lead_ingot_from_lead_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/lead_ingot_from_purified_lead.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/rubber.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/silver_ingot_from_crushed_silver.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/silver_ingot_from_purified_silver.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/silver_ingot_from_silver_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/tin_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/tin_ingot_from_crushed_tin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/tin_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/tin_ingot_from_purified_tin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/tin_ingot_from_tin_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/uranium_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/uranium_ingot_from_crushed_uranium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/uranium_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/ic2.materials/smelting/uranium_ingot_from_purified_uranium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/bronze_ingot_from_bronze_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/coal_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/copper_ingot_from_copper_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/copper_ingot_from_crushed_copper.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/copper_ingot_from_purified_copper.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/gold_ingot_from_crushed_gold.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/gold_ingot_from_gold_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/gold_ingot_from_purified_gold.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/iron_ingot_from_crushed_iron.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/iron_ingot_from_iron_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/iron_ingot_from_purified_iron.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/jungle_log_from_rubber_log.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/lead_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/lead_ingot_from_crushed_lead.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/lead_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/lead_ingot_from_lead_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/lead_ingot_from_purified_lead.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/rubber.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/silver_ingot_from_crushed_silver.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/silver_ingot_from_purified_silver.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/silver_ingot_from_silver_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/tin_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/tin_ingot_from_crushed_tin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/tin_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/tin_ingot_from_purified_tin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/tin_ingot_from_tin_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/uranium_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/uranium_ingot_from_crushed_uranium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/uranium_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/misc/smelting/uranium_ingot_from_purified_uranium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_circuit.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_circuit_vertical.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_heat_exchanger.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_heat_vent.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_machine.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_machine_vertical.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_miner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_re_battery.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/advanced_scanner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/alloy_chestplate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/alloy_chestplate_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/batbox.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/batbox_chargepad.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/batch_crafter.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/blank_tfbp.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/blast_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/block_cutter.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_axe.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_boots.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_chestplate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_helmet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_hoe.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_leggings.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_pickaxe.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_rotor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_rotor_blade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_shovel.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_sword.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bronze_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/bucket.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/canner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/carbon_fibre.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/carbon_rotor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/carbon_rotor_blade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/cesu.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/cesu_chargepad.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/cf_powder.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/chilling_tfbp.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/chunk_loader.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/circuit.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/circuit_vertical.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/coal_ball.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/coal_chunk.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/coal_fuel_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/coil.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/compressor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/condenser.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/copper_boiler.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/copper_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/crop_stick.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/cropmatron.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/cultivation_tfbp.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/cutter.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/desertification_tfbp.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/detector_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/diamond_drill.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/drill.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/dual_mox_fuel_rod.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/dual_uranium_fuel_rod.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/ejector_upgrade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/ejector_upgrade_9.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/electric_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/electric_heat_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/electric_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/electric_motor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/electric_motor_vertical.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/electrolyzer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/empty_cell.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/empty_mug.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/energium_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/energy_o_mat.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/energy_storage_upgrade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/ev_transformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/extractor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fermenter.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/flatification_tfbp.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fluid_bottler.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fluid_distributor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fluid_ejector_upgrade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fluid_ejector_upgrade_9.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fluid_heat_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fluid_pulling_upgrade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fluid_pulling_upgrade_9.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/fluid_regulator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/forge_hammer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/forge_hammer_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/generator_from_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/generator_from_iron_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/geo_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/glass_fibre_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/glowstone_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/gold_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/gunpowder.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/hazmat_chestplate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/hazmat_helmet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/hazmat_leggings.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/heat_conductor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/heat_exchanger_from_copper.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/heat_exchanger_from_gold.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/heat_vent.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/hv_transformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/induction_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/industrial_workbench.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iridium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iridium_drill.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iridium_neutron_reflector.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iridium_neutron_reflector_vertical.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iridium_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iridium_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iron_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iron_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iron_ingot_from_coin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iron_ingot_from_machine.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iron_rotor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iron_rotor_blade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iron_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/iron_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/irrigation_tfbp.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/item_buffer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/itnt.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/itnt_vertical.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/jetpack.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/jetpack_attachment_plate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/lapis_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/lapotron_crystal.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/lead_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/lead_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/lead_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/liquid_heat_exchanger.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/lithium_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/lv_transformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/lzh_condensator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/macerator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/machine.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/magnetizer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/matter_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/metal_former.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mfe.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mfe_chargepad.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mfsu.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mfsu_chargepad.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/miner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mining_pipe.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mixed_metal_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mox_1.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mox_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mox_3.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mox_4.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mushroom_tfbp.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/mv_transformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/nano_boots.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/nano_chestplate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/nano_leggings.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/nano_saber.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/neutron_reflector.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/nuclear_reactor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/nuke.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/obscurator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/obsidian_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/ore_washing_plant.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/overclocked_heat_vent.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/overclocker_upgrade_12.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/overclocker_upgrade_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/overclocker_upgrade_6.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/personal_chest.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/piston.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/plant_ball_1.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/plant_ball_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/plant_ball_3.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/plant_ball_4.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/plant_ball_5.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/plant_ball_6.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/plant_ball_7.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/plutonium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/power_unit.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/pulling_upgrade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/pulling_upgrade_9.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/pump.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/quad_mox_fuel_rod.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/quad_mox_fuel_rod_from_dual.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/quad_uranium_fuel_rod.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/quad_uranium_fuel_rod_from_dual.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/quantum_boots.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/quantum_helmet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/quantum_leggings.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rail.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/raw_crystal_memory.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rci_lzh.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rci_rsh.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/re_battery.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_access_hatch.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_chamber.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_coolant_cell.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_fluid_port.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_heat_exchanger.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_heat_plating.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_heat_vent.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_redstone_port.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reactor_vessel.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/recycler.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/redstone_inverter_upgrade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/redstone_inverter_upgrade_9.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reinforced_door.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reinforced_glass.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reinforced_glass_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/reinforced_stone.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/replicator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/resin_sheet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rsh_condensator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rt_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rt_heat_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rtg_pellet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rtg_pellet_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rtg_pellet_vertical.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rtg_pellet_vertical_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_boots.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_door.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_fence.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_fence_gate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_pressure_plate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_sheet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_sign.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_stairs.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_trapdoor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/rubber_wood.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/scanner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/scrap_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/semifluid_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/sextuple_reactor_coolant_cell.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/silver_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/silver_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/silver_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/single_use_battery.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/single_use_battery_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/small_iron_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/small_iron_dust_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/small_power_unit.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/solar_distiller.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/solar_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/solid_canner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/solid_heat_generator_from_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/solid_heat_generator_from_iron_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/sorting_machine.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/splitter_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steam_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steam_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steam_repressurizer_from_iron_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steam_repressurizer_from_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steam_turbine.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steam_turbine_blade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steam_turbine_vertical.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steel_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steel_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steel_rotor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steel_rotor_blade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steel_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/steel_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/stirling_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/stirling_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/stripped_rubber_wood.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/sulfur_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/terraformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/tesla_coil.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/thick_neutron_reflector.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/tin_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/tin_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/tin_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/tool_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/torch.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/trade_o_mat.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/transformer_upgrade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/treetap.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/triple_reactor_coolant_cell.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/uranium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/uranium_2.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/uranium_235.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/uranium_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/uranium_block_tagged.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/water_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/water_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/weighted_fluid_distributor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/weighted_item_distributor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/wind_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/wind_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/wooden_rotor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/wooden_rotor_blade.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/wooden_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/wool_sheet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/wrench.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shaped/wrench_down.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shapeless/weed_ex_bucket.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/advancement/recipes/shapeless/weed_ex_cell.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/acacia_sapling_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/advanced_machine.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/advanced_miner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/allium_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/aurelia_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/azure_bluet_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/batbox.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/batbox_chargepad.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/batch_crafter.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/beetroots_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/birch_sapling_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/black_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/blackthorn_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/blast_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/blazereed_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/block_cutter.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/blue_orchid_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/blue_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/bobs_yer_uncle_ranks_berries_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/bronze_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/bronze_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/bronze_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/brown_mushroom_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/brown_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/canner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/carrots_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/centrifuge.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cesu.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cesu_chargepad.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cherry_sapling_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/chunk_loader.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cocoa_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/coffee_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/coke_kiln.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/coke_kiln_grate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/coke_kiln_hatch.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/compressor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/condenser.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/copper_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/corium_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cornflower_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/corpse_plant_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/creeper_weed_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/crop_harvester.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/crop_stick.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cropmatron.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cyan_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cyazint_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/cyprium_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/dandelion_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/dark_oak_sapling_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/deepslate_lead_ore.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/deepslate_tin_ore.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/deepslate_uranium_ore.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/detector_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/diareed_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/double_insulated_gold_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/double_insulated_iron_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/eating_plant_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/egg_plant_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/electric_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/electric_heat_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/electric_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/electrolyzer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/ender_blossom_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/energy_o_mat.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/ev_transformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/extractor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/fermenter.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/ferru_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/flax_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/fluid_bottler.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/fluid_distributor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/fluid_heat_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/fluid_regulator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/geo_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/glass_fibre_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/gold_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/gray_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/green_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/hops_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/hv_transformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/induction_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/industrial_workbench.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/insulated_copper_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/insulated_gold_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/insulated_iron_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/insulated_tin_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/iridium_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/iridium_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/iron_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/iron_fence.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/iron_furnace.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/iron_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/iron_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/item_buffer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/itnt.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/jungle_sapling_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/lead_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/lead_ore.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/light_blue_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/light_gray_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/lily_of_the_valley_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/lime_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/liquid_heat_exchanger.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/luminator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/lv_transformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/macerator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/machine.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/magenta_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/magnetizer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/manual_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/matter_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/meat_rose_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/melon_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/metal_former.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/mfe.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/mfe_chargepad.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/mfsu.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/mfsu_chargepad.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/milk_wart_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/miner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/mv_transformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/nether_wart_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/nuclear_reactor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/nuke.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/oak_sapling_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/obscured_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/oil_berries_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/orange_tulip_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/orange_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/ore_washing_plant.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/oxeye_daisy_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/pattern_storage.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/personal_chest.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/pink_tulip_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/pink_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/pitcher_plant_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/plumbiscus_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/poppy_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/potato_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/pump.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/pumpkin_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/purple_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/raw_lead_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/raw_tin_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/raw_uranium_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rci_lzh.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rci_rsh.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reactor_access_hatch.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reactor_chamber.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reactor_fluid_port.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reactor_redstone_port.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reactor_vessel.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/recycler.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/red_mushroom_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/red_tulip_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/red_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/red_wheat_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reed_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/refractory_bricks.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reinforced_door.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reinforced_glass.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/reinforced_stone.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/replicator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/resin_sheet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rt_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rt_heat_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_button.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_door.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_fence.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_fence_gate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_leaves.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_log.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_planks.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_pressure_plate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_sapling.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_sheet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_sign.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_slab.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_stairs.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_trapdoor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/rubber_wood.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/semifluid_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/shining_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/silver_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/slime_plant_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/solar_distiller.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/solar_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/solid_canner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/solid_heat_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/sorting_machine.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/spidernip_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/splitter_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/spruce_sapling_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/stagnium_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/steam_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/steam_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/steam_repressurizer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/steel_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/steel_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/steel_tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/sticky_reed_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/stirling_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/stirling_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/stripped_rubber_log.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/stripped_rubber_wood.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/tank.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/tearstalks_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/teleporter.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/terra_wart_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/terraformer.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/tesla_coil.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/tin_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/tin_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/tin_ore.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/torchflower_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/trade_o_mat.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/triple_insulated_iron_cable.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/tulip_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/uranium_block.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/uranium_ore.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/uu_scanner.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/venomilia_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/water_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/water_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/weed_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/weighted_fluid_distributor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/weighted_item_distributor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/wheat_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/white_tulip_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/white_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/wind_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/wind_kinetic_generator.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/wither_rose_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/withereed_crop.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/wooden_storage_box.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/wool_sheet.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/blocks/yellow_wall.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/abandoned_mineshaft.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/desert_pyramid.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/end_city_treasure.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/igloo_chest.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/jungle_temple.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/nether_bridge.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/simple_dungeon.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/spawn_bonus_chest.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/stronghold_corridor.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/stronghold_crossing.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/stronghold_library.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/loot_table/chests/village_toolsmith.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/neoforge/biome_modifier/add_ore_features.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/neoforge/biome_modifier/add_rubber_tree_feature_forest.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/neoforge/biome_modifier/add_rubber_tree_feature_jungle.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/neoforge/biome_modifier/add_rubber_tree_feature_swamp.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/compressor/coal_chunk_to_industrial_diamond.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/macerator/chain_to_iron_nugget.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/macerator/copper_ores_to_raw_copper.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/macerator/gold_ores_to_raw_gold.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/macerator/iron_ores_to_raw_iron.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/recipe/macerator/nether_gold_ore_to_gold_nugget.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/macerator/raw_copper_block_to_raw_copper.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/macerator/raw_gold_block_to_raw_gold.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/macerator/raw_iron_block_to_raw_iron.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/shapeless/raw_ore/lead.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/shapeless/raw_ore/tin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/shapeless/raw_ore/uranium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/bronze_ingot_from_bronze_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/coal_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/copper_ingot_from_copper_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/copper_ingot_from_crushed_copper.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/copper_ingot_from_purified_copper.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/crystal_memory.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/dark_coffee_mug.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/gold_ingot_from_crushed_gold.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/gold_ingot_from_gold_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/gold_ingot_from_purified_gold.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/iron_ingot_from_crushed_iron.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/iron_ingot_from_iron_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/iron_ingot_from_purified_iron.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/jungle_log_from_rubber_log.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/lead_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/lead_ingot_from_crushed_lead.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/lead_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/lead_ingot_from_lead_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/lead_ingot_from_purified_lead.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/lead_ingot_from_raw_lead.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/rubber.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/silver_ingot_from_crushed_silver.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/silver_ingot_from_purified_silver.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/silver_ingot_from_silver_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/tin_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/tin_ingot_from_crushed_tin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/tin_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/tin_ingot_from_purified_tin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/tin_ingot_from_raw_tin.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/tin_ingot_from_tin_dust.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/uranium_ingot.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/uranium_ingot_from_crushed_uranium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/uranium_ingot_from_deepslate.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/uranium_ingot_from_purified_uranium.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/recipe/smelting/uranium_ingot_from_raw_uranium.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/overworld_gold_ores.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_advanced_bat_pack_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_alloy_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_bat_pack_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_bronze_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_bronze_tools.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_cf_pack_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_electric_tools.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_energy_pack_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_hazmat_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_iridium_tools.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_jet_pack_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_jet_pack_electric_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_lap_pack_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_nano_suit_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_night_vision_goggles_armor.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/tags/item/repairs_quantum_suit_armor.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/worldgen/configured_feature/ore_lead.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/worldgen/configured_feature/ore_tin.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/worldgen/configured_feature/ore_tin_small.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/worldgen/configured_feature/ore_uranium.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/worldgen/configured_feature/ore_uranium_buried.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/worldgen/configured_feature/ore_uranium_large.json"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/worldgen/configured_feature/rubber_tree.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/worldgen/feature/ore_lead.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/worldgen/feature/ore_tin.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/worldgen/feature/ore_tin_small.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/worldgen/feature/ore_uranium.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/worldgen/feature/ore_uranium_buried.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/worldgen/feature/ore_uranium_large.json"
+    },
+    {
+      "status": "added",
+      "path": "src/main/resources/data/ic2/worldgen/feature/rubber_tree.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/worldgen/placed_feature/trees_rubber_forest.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/worldgen/placed_feature/trees_rubber_jungle.json"
+    },
+    {
+      "status": "modified",
+      "path": "src/main/resources/data/ic2/worldgen/placed_feature/trees_rubber_swamp.json"
+    }
+  ],
+  "excluded_baseline_differences": [
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/structure/gametest/empty3x3x3.nbt"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/structure/gametest/empty3x9x3.nbt"
+    },
+    {
+      "status": "removed",
+      "path": "src/main/resources/data/ic2/structure/gametest/empty7x7x7.nbt"
+    }
+  ]
+}

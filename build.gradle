@@ -1,0 +1,187 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+version = mod_version
+group = maven_group
+base { archivesName = archives_base_name }
+
+loom {
+    accessWidenerPath = file('src/main/resources/ic2.accesswidener')
+    runs {
+        server {
+            runDir 'build/server-smoke'
+            programArg '--nogui'
+        }
+    }
+}
+
+repositories {
+    // Optional offline mirror of the exact API distribution already installed in the profile.
+    // tools/prepare-profile-fabric-api.py preserves the aggregate and bundled module bytes.
+    if (file('tools/profile-api-maven').isDirectory()) {
+        maven {
+            url = uri('tools/profile-api-maven')
+            content { includeGroup 'net.fabricmc.fabric-api' }
+            metadataSources { mavenPom(); artifact() }
+        }
+    }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
+    withSourcesJar()
+}
+
+tasks.named('jar') { from('LICENSE') }
+tasks.named('sourcesJar') { from('LICENSE') }
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+    exclude '**/*.bbmodel', '**/.cache/**', 'META-INF/neoforge.mods.toml'
+}
+
+sourceSets.main.java {
+    // Optional external-mod integrations from the upstream project need their own ports.
+    exclude 'ic2/integration/**'
+}
+
+def expandedModVersion = project.version
+processResources {
+    inputs.property 'version', expandedModVersion
+    filesMatching('fabric.mod.json') { expand version: expandedModVersion }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 25
+    options.compilerArgs += ['-Xmaxerrs', '2000']
+}
+
+test { useJUnitPlatform() }
+
+tasks.register('writeCompileClasspath') {
+    description = 'Writes the resolved production compile classpath for scoped javac diagnostics.'
+    def classpathOutput = layout.buildDirectory.file('compile-classpath.txt')
+    inputs.files(configurations.compileClasspath)
+    outputs.file(classpathOutput)
+    doLast {
+        def outputFile = classpathOutput.get().asFile
+        outputFile.parentFile.mkdirs()
+        outputFile.text = configurations.compileClasspath.asPath
+    }
+}
+
+// Game tests are a separate development mod; production builds contain no test classes.
+// Enable explicitly with -PenableGameTests=true when compiling or running this suite.
+if (providers.gradleProperty('enableGameTests').map { it.toBoolean() }.getOrElse(false)) {
+    def clientGameTestsEnabled = providers.gradleProperty('enableClientGameTests')
+        .map { it.toBoolean() }.getOrElse(false)
+    def profileGameTestsEnabled = providers.gradleProperty('profileGameTests')
+        .map { it.toBoolean() }.getOrElse(false)
+    def configureProfileMods = { run, String environment ->
+        if (!providers.gradleProperty('profileModsDir').isPresent()) {
+            throw new GradleException('profileGameTests requires -PprofileModsDir=<isolated staging directory>.')
+        }
+        def extraModsDir = file(providers.gradleProperty('profileModsDir').get()).canonicalFile
+        // Loom clears test run directories before launch. The same staged JARs may be
+        // used by either run, so protect both directories even when only one is enabled.
+        ['build/client-render-smoke', 'build/run/gameTest'].each { runDirectory ->
+            def clearedRunDir = file(runDirectory).canonicalFile.toPath()
+            if (extraModsDir.toPath().startsWith(clearedRunDir)) {
+                throw new GradleException("profileModsDir must be outside ${runDirectory}, which Loom clears before launch.")
+            }
+        }
+        def requiredMods = []
+        if (extraModsDir.isDirectory()) {
+            extraModsDir.eachFileMatch(~/.*\.jar/) { modJar ->
+                new java.util.zip.ZipFile(modJar).withCloseable { archive ->
+                    def descriptor = archive.getEntry('fabric.mod.json')
+                    if (descriptor != null) {
+                        archive.getInputStream(descriptor).withCloseable { input ->
+                            def metadata = new groovy.json.JsonSlurper().parse(input)
+                            if (metadata.environment == null || metadata.environment == '*'
+                                    || metadata.environment == environment) {
+                                requiredMods.add(metadata.id)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if (requiredMods.isEmpty()) {
+            throw new GradleException("profileModsDir contains no Fabric mods for ${environment}: ${extraModsDir}")
+        }
+        run.property 'fabric.modsFolder', extraModsDir.absolutePath
+        run.property 'ic2.gametest.requiredMods', requiredMods.unique().sort().join(',')
+    }
+    fabricApi {
+        configureTests {
+            createSourceSet = true
+            modId = 'ic2-gametest'
+            enableGameTests = true
+            enableClientGameTests = clientGameTestsEnabled
+        }
+    }
+    if (fabric_api_version == '0.164.0+26.3'
+            && file('tools/profile-api-maven').isDirectory()) {
+        // The profile distribution omits development-only GameTest modules. These cached
+        // 26.3 harnesses run against the profile's byte-identical production API modules.
+        dependencies {
+            gametestImplementation('net.fabricmc.fabric-api:fabric-gametest-api-v1:4.0.34+3434d6d95d') {
+                transitive = false
+            }
+            if (clientGameTestsEnabled) {
+                gametestImplementation('net.fabricmc.fabric-api:fabric-client-gametest-api-v1:6.0.9+4be74c3f5d') {
+                    transitive = false
+                }
+            }
+        }
+    }
+    tasks.named('processGametestResources') {
+        inputs.property 'version', expandedModVersion
+        inputs.property 'clientGameTestsEnabled', clientGameTestsEnabled
+        filesMatching('fabric.mod.json') { expand version: expandedModVersion }
+        doLast {
+            if (clientGameTestsEnabled) {
+                def descriptor = new File(destinationDir, 'fabric.mod.json')
+                def metadata = new groovy.json.JsonSlurper().parse(descriptor)
+                metadata.entrypoints['fabric-client-gametest'] = [
+                    'ic2.client.gametest.Ic2ClientRenderGameTest'
+                ]
+                descriptor.text = groovy.json.JsonOutput.prettyPrint(
+                    groovy.json.JsonOutput.toJson(metadata)) + '\n'
+            }
+        }
+    }
+    loom.runs.named('gameTest') { run ->
+        property 'fabric-api.gametest.report-file', file('build/reports/gametest/results.xml').absolutePath
+        if (providers.gradleProperty('gameTestFilter').isPresent()) {
+            property 'fabric-api.gametest.filter', providers.gradleProperty('gameTestFilter').get()
+        }
+        if (profileGameTestsEnabled) {
+            configureProfileMods(run, 'server')
+        }
+    }
+    if (clientGameTestsEnabled) {
+        sourceSets.gametest.java.srcDir('src/clientGametest/java')
+        loom.runs.named('clientGameTest') { run ->
+            runDir 'build/client-render-smoke'
+            if (providers.gradleProperty('clientTestLanguage').isPresent()) {
+                property 'ic2.gametest.language', providers.gradleProperty('clientTestLanguage').get()
+            }
+            if (providers.gradleProperty('profileModsDir').isPresent()) {
+                configureProfileMods(run, 'client')
+            }
+        }
+    }
+}
