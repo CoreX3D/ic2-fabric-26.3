@@ -11,6 +11,7 @@ import ic2.core.util.StackUtil;
 import ic2.core.util.Util;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.Container;
@@ -32,6 +33,7 @@ public class TileEntityReactorChamberElectric extends Ic2TileEntity
   protected final Fluids fluids = this.addComponent(new Fluids(this));
   private TileEntityNuclearReactorElectric reactor;
   private long lastReactorUpdate;
+  private boolean destroying;
 
   public TileEntityReactorChamberElectric(BlockPos pos, BlockState state) {
     super(Ic2BlockEntities.REACTOR_CHAMBER, pos, state);
@@ -93,10 +95,34 @@ public class TileEntityReactorChamberElectric extends Ic2TileEntity
 
   public void destroyChamber(boolean wrench) {
     Level world = this.getLevel();
-    world.removeBlock(this.worldPosition, false);
+    if (world == null
+        || world.isClientSide()
+        || this.destroying
+        || this.isRemoved()
+        || world.getBlockEntity(this.worldPosition) != this
+        || !world.getBlockState(this.worldPosition).is(this.getBlockType())) {
+      return;
+    }
 
-    for (ItemStack drop : this.getSelfDrops(wrench)) {
-      StackUtil.dropAsEntity(world, this.worldPosition, drop);
+    this.destroying = true;
+    try {
+      List<ItemStack> drops = this.getSelfDrops(wrench);
+      if (world.removeBlock(this.worldPosition, false)) {
+        for (ItemStack drop : drops) {
+          StackUtil.dropAsEntity(world, this.worldPosition, drop);
+        }
+      }
+    } finally {
+      this.destroying = false;
+    }
+  }
+
+  @Override
+  public void preRemoveSideEffects(BlockPos pos, BlockState oldState) {
+    // This Container is only a view into the reactor. Vanilla's superclass hook would
+    // drop the reactor's inventory when removing a chamber, although the core still owns it.
+    if (this.getLevel() != null && !this.getLevel().isClientSide()) {
+      this.onBlockBreak();
     }
   }
 

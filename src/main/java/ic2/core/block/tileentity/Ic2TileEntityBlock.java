@@ -360,6 +360,9 @@ public final class Ic2TileEntityBlock extends Block
       // The new notification API has no source position. Refresh every adjacent connection so
       // heat and kinetic generators still discover a source on their working face.
       for (Direction direction : Direction.values()) {
+        if (tileEntity.isRemoved() || world.getBlockEntity(pos) != tileEntity) {
+          break;
+        }
         tileEntity.onNeighborChange(sourceBlock, pos.relative(direction));
       }
     }

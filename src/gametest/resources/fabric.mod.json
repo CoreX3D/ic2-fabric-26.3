@@ -58,6 +58,7 @@
       "ic2.core.gametest.QuantumSuitGameTests",
       "ic2.core.gametest.RadiationEffectGameTests",
       "ic2.core.gametest.ReactorGameTests",
+      "ic2.core.gametest.ReactorChamberDropGameTests",
       "ic2.core.gametest.RecipeBookGameTests",
       "ic2.core.gametest.RecipePlacementGameTests",
       "ic2.core.gametest.RubberLeavesGameTests",
