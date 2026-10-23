@@ -4,7 +4,7 @@
 
 Текущая версия: **0.1.0-alpha.13**. Проект находится в стадии alpha; полное совпадение со всеми особенностями оригинального IC2 пока не подтверждено.
 
-**[Скачать мод](https://github.com/CoreX3D/ic2-fabric-26.3/releases)** · **[Изменения](CHANGELOG.md)** · **[Сообщить об ошибке](https://github.com/CoreX3D/ic2-fabric-26.3/issues)**
+**⬇ [Скачать IC2 alpha.13 — готовый JAR](https://github.com/CoreX3D/ic2-fabric-26.3/releases/download/v0.1.0-alpha.13/ic2-fabric-26.3-0.1.0-alpha.13.jar)** · **[Все релизы](https://github.com/CoreX3D/ic2-fabric-26.3/releases)** · **[Изменения](CHANGELOG.md)** · **[Сообщить об ошибке](https://github.com/CoreX3D/ic2-fabric-26.3/issues)**
 
 ## Установка
 
